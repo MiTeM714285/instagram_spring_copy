@@ -1,0 +1,189 @@
+#container {
+    margin: 0px auto;
+
+    width: 975px;
+}
+
+article {
+    display: flex;
+    margin-top: 30px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-item {
+    padding: 16px 16px 16px 30px;
+
+    width: 236px;
+    height: 52px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.clicked {
+    border-left: 1px solid black;
+}
+
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #dbdbdb;
+}
+
+.profile-box-form1 {
+    display: flex;
+    margin-top: 32px;
+}
+
+.profile-box-form2 {
+    margin: 16px 0px;
+}
+
+.box-items {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.box-item-left {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 6px;
+    padding: 0px 32px;
+    width: 194px;
+}
+
+.box-item-right {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+.profile-img-round {
+    border: hidden;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.profile-img-round img {
+    max-width: 38px;
+    max-height: 38px;
+}
+
+.profile-img-file {
+	display : none;
+}
+
+.input-items {
+    width: 355px;
+}
+
+.password-input-items {
+    width: 442px;
+}
+
+.text-input {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 32px;
+    font-size: 16px;
+}
+
+.password-input {
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    padding: 4px 12px;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    background-color: #fafafa;
+}
+
+.profile-username {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 2px;
+}
+
+.username-sizeup {
+    font-size: 22px;
+    line-height: 44px;
+}
+
+.update-img-button {
+    color: #0095f6;
+    font-size: 14px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.box-item-left label {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.input-explanation {
+    margin: 16px 0px 8px;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(142, 142, 142);
+}
+
+.explanation-text1 {
+    margin-bottom: 16px;
+}
+
+.text-textarea {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    padding: 0px 10px;
+    width: 100%;
+    min-height: 60px;
+    max-height: 200px;
+    font-size: 16px;
+
+    resize: vertical;
+}
+
+.phone-check-btn {
+    margin-top: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 9px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0095f6;
+    cursor: pointer;
+}
+
+.submit-btn {
+    margin-top: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 9px;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #0095f6;
+    cursor: pointer;
+}
